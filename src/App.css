@@ -13,13 +13,28 @@
   }
 }
 
+.Menu-bar {
+  background-color: #34383f;
+  height: 6vmin;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: rgb(190, 153, 153);
+}
+
+.Menu-bar h3 {
+  margin: 5px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +50,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Form label {
+  margin: 5px;
+}
+
+.Form input {
+  margin: 5px;
 }
