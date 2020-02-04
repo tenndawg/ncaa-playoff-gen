@@ -24,6 +24,11 @@
   color: rgb(190, 153, 153);
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .Menu-bar h3 {
   margin: 5px;
 }
