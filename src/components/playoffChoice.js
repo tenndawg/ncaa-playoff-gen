@@ -20,6 +20,10 @@ function PlayoffChoice(){
                 </label>
                 <label>
                 <input type="radio" name="pType" value="16 Team"/>
+                12 Team
+                </label>
+                <label>
+                <input type="radio" name="pType" value="12 Team"/>
                 16 Team
                 </label>
                 <label>
