@@ -34,6 +34,9 @@ function PlayoffChoice(){
                 <input type="radio" name="pType" value="64 Team" disabled="disabled"/>
                 64 Team (Never Gonna Happen)
                 </label>
+                <label>
+                    <button>Submit</button>
+                </label>
             </form>
         </header>
     )
